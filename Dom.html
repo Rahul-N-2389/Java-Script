@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <script>
+        //TASK1
+        let container = document.createElement("ul")
+        for(i=1;i<=5;i++){
+            let child = document.createElement("li")
+            child.innerText=i;
+            container.appendChild(child)
+        }
+        document.body.appendChild(container)
+        console.log(container)
+
+          //Task 2
+        let div = document.createElement("div")
+        let p = document.createElement("p")
+        p.innerText = "Talk to yourself atleast once in a day otherwise you "
+        div.appendChild(p)
+        document.body.appendChild(div)
+        console.log(div)
+        //TASK 3
+       let unique = document.createElement("div") 
+       let beunique=document.createElement("h1")
+       let para=document.createElement("p")
+       beunique.innerText="DO NOT SATISFY WITH LITTLE"
+       para.innerText="beauty is in heart"
+       unique.appendChild(beunique)
+       unique.appendChild(para)
+       document.body.appendChild(unique)
+       console.log(unique)
+   //task 4
+       let table = document.createElement("table")
+       let row = document.createElement("tr")
+       let names=["rahul","sunny","bunny","fgbh","rahul","sunny","bunny","fgbh"]
+       for(i=0;i<names.length;i++){
+        let data = document.createElement("td")
+        data.innerText=names[i]
+        row.appendChild(data)
+        
+       }
+       table.appendChild(row)
+       document.body.appendChild(table)
+       console.log(table)
+
+
+       
+       //task5 
+       let buttoncontainer= document.createElement("div")
+       let name = ["submit","clickme","exit","scrolldown","navigate"]
+       for(i=0;i<name.length;i++){
+        let button = document.createElement("button")
+        button.innerText=name[i]
+        buttoncontainer.appendChild(button)
+       }
+       document.body.appendChild(buttoncontainer)
+       console.log(buttoncontainer)
+
+
+       let arr = ["home", "Contact", "About","help",]
+    </script>
+</body>
+</html>

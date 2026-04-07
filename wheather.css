@@ -1,0 +1,163 @@
+/* =======================
+   CSS VARIABLES
+======================= */
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.12);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  --blur: 12px;
+  --text-color: #ffffff;
+  --accent: #00c6ff;
+  --radius: 16px;
+}
+
+/* =======================
+   GLOBAL STYLES
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Vibrant gradient background */
+  background: linear-gradient(
+    135deg,
+    #22bad8,
+    #764ba2,
+    #ff6a00,
+    #ee0979
+  );
+  background-size: 300% 300%;
+  animation: gradientMove 10s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* =======================
+   MAIN GLASS CONTAINER
+======================= */
+#container {
+  margin-top: 20px;
+  padding: 25px;
+  width: 100%;
+  max-width: 350px;
+
+  background: var(--glass-bg);
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-border);
+
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* =======================
+   INPUT + BUTTON WRAPPER
+======================= */
+body > input,
+body > button {
+  margin: 10px;
+}
+
+/* Input Field */
+#input {
+  padding: 12px 15px;
+  width: 250px;
+
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-border);
+
+  background: var(--glass-bg);
+  color: var(--text-color);
+
+  backdrop-filter: blur(var(--blur));
+
+  outline: none;
+  transition: 0.3s ease;
+}
+
+#input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+/* Button */
+button {
+  padding: 12px 18px;
+  border-radius: var(--radius);
+  border: none;
+
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 198, 255, 0.4);
+}
+
+/* =======================
+   WEATHER TEXT
+======================= */
+#container h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* =======================
+   RESPONSIVE DESIGN
+======================= */
+
+/* Tablet */
+@media (max-width: 768px) {
+  #input {
+    width: 200px;
+  }
+
+  #container {
+    max-width: 300px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+  }
+
+  #input {
+    width: 90%;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  #container {
+    width: 90%;
+  }
+}
