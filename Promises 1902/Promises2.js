@@ -37,12 +37,12 @@
 
 
 //to iterate maultiple values in an array
-const URL="https://fakestoreapi.com/products"
-fetch(URL).then(res=>res.json()).then(res1=>{
-    for(i=0;i<res1.length;i++){
-        console.log(res1[i]);
-        console.log(res1[i].category);
-        console.log(res1[i].title);
+// const URL="https://fakestoreapi.com/products"
+// fetch(URL).then(res=>res.json()).then(res1=>{
+//     for(i=0;i<res1.length;i++){
+//         console.log(res1[i]);
+//         console.log(res1[i].category);
+//         console.log(res1[i].title);
         
-    }
-})
+//     }
+// })
