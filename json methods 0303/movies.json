@@ -1,0 +1,17 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "Rajesh"
+    },
+    {
+      "id": "2",
+      "name": "anvesh"
+    },
+    {
+      "id": "3",
+      "name": "avesh"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
