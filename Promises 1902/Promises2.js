@@ -11,9 +11,9 @@
 
 
 /**to get data from API we have fetch method */
-// console.log(fetch());
+console.log(fetch());
 
-/** whenever we wanty get or push data into API we need to get or push data with JSON format */
+/** whenever we wanty get or push data into API we need to get or push data into JSON format */
 // const URL ="https://fakestoreapi.com/products"
 // fetch(URL).then((res)=>{console.log(res);     
 // })
