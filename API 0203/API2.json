@@ -1,0 +1,30 @@
+{
+  "objects": [
+    {
+      "id": "1",
+      "name": "java",
+      "price": "25000"
+    },
+    {
+      "id": "2",
+      "name": "python",
+      "price": "27000"
+    },
+    {
+      "id": "3",
+      "name": "javascript",
+      "price": "29000"
+    },
+    {
+      "id": "4",
+      "name": "react",
+      "price": "30000"
+    },
+    {
+      "id": "5",
+      "name": "SQL",
+      "price": "35000"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
