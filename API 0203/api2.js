@@ -113,7 +113,7 @@
 //             console.log("Some thing went Wrong");
 //         }
 //     })
-    /** when we use PATCH what we want change only that will change 
+    /** when we use PATCH what we want to change only that will change 
      * ex:-  "id": "4",
         "name": "react",
         "price": "30000"  
@@ -122,4 +122,16 @@
         "name": "react",
         "price": "32000"  //only this will change
     */
+
+
+const URL = "http://localhost:3000/objects"
+let options = {"method":"GET"}
+fetch(URL,options).then(res=>res.json())
+.then(data=>{
+    for(i=0;i<data.length;i++){
+        console.log(data[i]);     //object
+        console.log(data[i].id);  //id
+        console.log(data[i].name); //name
+    }
+})
 
