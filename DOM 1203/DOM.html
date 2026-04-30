@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>JS world</p>
+
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+
+    <script>
+        //   let links= document.links
+        // //   console.log(links);            // To get links in collection format
+        // for (let link of links) {           //to get elements in object we use "forof"
+        //     // console.log(link)            // To get links
+        //     console.log(link.innerText)     // To get inside text in <a> tag
+        // }
+
+        /**
+         * To create Elements in Dynamic way..
+         * ---------------------------------
+        */
+        // let container = document.createElement("div")
+        // container.innerText = "wlcome back to our world"
+        // //    console.log(container.innerText);
+        // document.body.appendChild(container)
+
+
+        // < div >
+        //      <p>Hello there</p>
+        // </div >
+        /** create abo ve element in dynamic way
+         * -------------------------------------
+        */
+        // let container1 = document.createElement("div")
+        // let p = document.createElement("p")
+        // p.innerText = "Hello there"
+        // container1.appendChild(p)
+        // document.body.appendChild(container1)
+
+
+
+        let ul = document.createElement("ul")
+        for(i=1;i<=3;i++){
+            let li =document.createElement("li")
+            li.innerText=i;
+            ul.appendChild(li)
+        }
+        document.body.appendChild(ul)
+        
+
+
+    </script>
+</body>
+
+</html>
