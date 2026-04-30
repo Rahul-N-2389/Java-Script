@@ -12,6 +12,5 @@
       "id": "3",
       "name": "avesh"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
