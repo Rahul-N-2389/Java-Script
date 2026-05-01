@@ -108,12 +108,12 @@
 /** Create a nav bar by dynamically
  * --------------------------------
  */
-let arr = ["home","contacts","projects","about","Help"]
+let arr = ["home", "contacts", "projects", "about", "Help"]
 let nav = document.createElement("div")
-nav.id="main"
-arr.forEach(obj=>{
+nav.id = "main"
+arr.forEach(obj => {
     let p = document.createElement("p")
-    p.innerHTML=`
+    p.innerHTML = `
     <p>${obj}</p>
     `
     nav.appendChild(p)
