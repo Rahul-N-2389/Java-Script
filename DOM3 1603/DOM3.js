@@ -37,7 +37,7 @@
 //         let p = document.createElement("p")
 //         p.innerHTML = `
 //         <h2> ID : ${element.id}</h2>
-//         <h2> Naame : ${element.name},/h2>
+//         <h2> Naame : ${element.name}</h2>
 //         `
 //         container.append(p)
 //     });
