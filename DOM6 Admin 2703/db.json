@@ -1,0 +1,40 @@
+{
+  "Objects": [
+    {
+      "id": "1",
+      "name": "kakshi  sensei",
+      "image": "https://i.pinimg.com/1200x/64/ea/31/64ea31126ad4f3275c4630c330a29322.jpg"
+    },
+    {
+      "id": "2",
+      "name": "jiraya sensai",
+      "image": "https://i.pinimg.com/736x/28/73/8a/28738a38dd0828dac61fa77a35557c9c.jpg"
+    },
+    {
+      "id": "3",
+      "name": "itachi uchiha",
+      "image": "https://i.pinimg.com/736x/d0/2b/27/d02b277d398b9c2258063802f8738e3a.jpg"
+    },
+    {
+      "id": "4",
+      "name": "pain",
+      "image": "https://i.pinimg.com/736x/7b/02/54/7b0254f58985c7214286deabcc7cfd0b.jpg"
+    },
+    {
+      "id": "5",
+      "name": "naruto",
+      "image": "https://i.pinimg.com/736x/4c/c9/03/4cc90357c35586fb7fa468a42b3138ce.jpg"
+    },
+    {
+      "id": "6",
+      "name": "minato uzumaki",
+      "image": "https://i.pinimg.com/736x/49/b7/9a/49b79ad7a4be0b86dbb4ee32c9152471.jpg"
+    },
+    {
+      "id": "7",
+      "name": "hinata",
+      "image": "https://i.pinimg.com/736x/76/2e/fc/762efc67c5ec6bad34fd2dd9d09f3440.jpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
