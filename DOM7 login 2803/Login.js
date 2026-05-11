@@ -37,7 +37,7 @@ sbmbtn.onclick = async function (event) {
         // console.log(email.value);
         // console.log(password.value);
 
-        //To creatre Data into object
+ //To creatre Data into object
         const newUser = {
             uname: username.value,
             mail: email.value,
@@ -92,6 +92,8 @@ async function updateUser() {
     }
 }
 // updateUser()
+
+//delete user
 async function deleteUser() {
     try {
         let res = await fetch("http://localhost:4000/Users/2",{
