@@ -150,7 +150,7 @@ async function saveData() {
     //     });
 
     //     finalId = String(lastId + 1);
-    // }
+// }
     let finalId = ninjaId
     if(!ninjaId){
         let res = await fetch("http://localhost:3000/Objects")

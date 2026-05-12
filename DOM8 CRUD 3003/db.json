@@ -1,0 +1,30 @@
+{
+  "Objects": [
+    {
+      "id": "1",
+      "name": "David Warner mama",
+      "image": "https://i.redd.it/5qbudkfxaope1.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Kane Wiliamson mama",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTguvNkRQIiwr1MqH8C8YPLYkdu55mtHT5e_w&s"
+    },
+    {
+      "id": "3",
+      "name": "Pat cummins",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDgX9LqvH0jh_f4XT7bBK9084oR71CUFJekg&s"
+    },
+    {
+      "id": "4",
+      "name": "Bhuvaneswar Kumar",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrNI0nzAmdYTnFIgjXw09R8SSRn87q0cT1A&s"
+    },
+    {
+      "id": "5",
+      "name": "Rahul N",
+      "image": "https://www.cityairnews.com/uploads/images/image-750x-2024-12-28-02:13:39pm-676fba3b678ec.jpg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
